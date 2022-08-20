@@ -22,6 +22,13 @@ public class $gen.className$ $gen.typeExtension$ $gen.interfaceExtension${
       }
       return typeInfo;
     }
+    
+	public enum $gen.className$Field {
+	$gen.memberMetadataList: {member |
+		$member.fieldName$,
+	}$
+		__ // Not sure how to remove trailing comma
+	}
 
   $gen.memberMetadataList: {member |
   /**
